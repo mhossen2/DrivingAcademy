@@ -95,6 +95,46 @@ section {
   padding: 12px;
   border-radius: 5px;
 }
+/* FEEDBACK SECTION */
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.feedback-card {
+  background: #fff;
+  padding: 20px;
+  width: 260px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.feedback-card h3 {
+  margin: 10px 0 5px;
+}
+
+.stars {
+  color: gold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.feedback-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
 
 /* CONTACT FORM */
 form {
@@ -139,5 +179,9 @@ footer {
 
   .mobile-menu-btn {
     display: block;
+  }
+  .feedback-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
